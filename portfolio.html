@@ -1,180 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="Assets/style.css" />
-  </head>
 
-  <body>
-    <!-- nav bar  -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-      <!-- inserted logo in bootstrap nav bar -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="Assets/style.css" />
+</head>
 
-      <img
-        src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/p720x720/19467633_734863626697973_344202083783773719_o.jpg?_nc_cat=100&_nc_sid=dd9801&_nc_ohc=WYsgm-eSKsIAX-uD9sd&_nc_ht=scontent-lga3-1.xx&_nc_tp=6&oh=bdbd8068b5a801c028f99d0ccb07ee3c&oe=5F1FFB5B"
-        alt="logo"
-        class="img-thumbnail"
-        style="width: 50px; height: 60px; padding: 0%;"
-        flex-md-row
-      />
-      <!-- added h1 inside boostrap nav bar  -->
+<body>
+  <!-- nav bar  -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <!-- inserted logo in bootstrap nav bar -->
 
-      <h1>Gabriel Caplan</h1>
+    <img
+      src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/p720x720/19467633_734863626697973_344202083783773719_o.jpg?_nc_cat=100&_nc_sid=dd9801&_nc_ohc=WYsgm-eSKsIAX-uD9sd&_nc_ht=scontent-lga3-1.xx&_nc_tp=6&oh=bdbd8068b5a801c028f99d0ccb07ee3c&oe=5F1FFB5B"
+      alt="logo" class="img-thumbnail" style="width: 50px; height: 60px; padding: 0%;" flex-md-row />
+    <!-- added h1 inside boostrap nav bar  -->
 
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavbar"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- addded "flex-row-reverse" to boostrap nav bar  -->
-      <div
-        class="collapse navbar-collapse flex-md-row-reverse"
-        id="collapsibleNavbar"
-      >
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <h1>Gabriel Caplan</h1>
 
-    <!-- 1st row  -->
-    <div class="row">
-      <!-- header  -->
-      <header class="col-md-12">
-        <h2>Portfolio</h2>
-      </header>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- addded "flex-row-reverse" to boostrap nav bar  -->
+    <div class="collapse navbar-collapse flex-md-row-reverse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
     </div>
-    <!-- container  -->
-    <main class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card" style="width: 18rem;">
-            <img
-              class="card-img-top"
-              src="Assets/my images/pawscity screenshot.jpg"
-              alt="Paws City screenshot"
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Group Project:
-                <a
-                  href="https://nata-stelmakh.github.io/PawsCity/PetStores.html"
-                >
-                  Paws City</a
-                >
-              </p>
-              <p>
-                In our first group project, we have been assigned to think about
-                a unique user need, and research APIs to connect user with
-                resources. We found Petfinder API and TrueWay API, to combine an
-                experience for the user looking for a new pet and pet lifestyle
-                needs.
-              </p>
-            </div>
+  </nav>
+
+  <!-- 1st row  -->
+  <div class="row">
+    <!-- header  -->
+    <header class="col-md-12">
+      <h2>Portfolio</h2>
+    </header>
+  </div>
+  <!-- container  -->
+  <main class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Assets/my images/pawscity screenshot.jpg" alt="Paws City screenshot" />
+          <div class="card-body">
+            <p class="card-text">
+              Group Project1:
+              <a href="https://nata-stelmakh.github.io/PawsCity/PetStores.html">
+                Paws City</a>
+            </p>
+            <p>
+              In our first group project, we have been assigned to think about
+              a unique user need, and research APIs to connect user with
+              resources. We found Petfinder API and TrueWay API, to combine an
+              experience for the user looking for a new pet and pet lifestyle
+              needs.
+            </p>
           </div>
         </div>
-        <!-- end of ex 1  -->
-
-        <!-- ex2 -->
-        <div class="col-md-6">
-          <div class="card" style="width: 18rem;">
-            <img
-              class="card-img-top"
-              src="Assets/my images/fanpage html practice.jpg"
-              alt="Pointer Sisters Fanpage"
-            />
-            <div class="card-body">
-              <p class="card-text">
-                First Fanpage
-                <a href="https://gcaplan777.github.io/pointersisters"
-                  >Pointer Sisters</a
-                >
-              </p>
-              <p>
-                What can I say? I love music. With the recent passing of
-                <a href="https://en.wikipedia.org/wiki/Ruth_Pointer"
-                  >Ruth Pointer</a
-                >
-                and the assignment in our PreWork to practice basic html with a
-                favorite band in mind, how could I resist? This is a fanpage
-                assignment from the week before I began my current training in
-                Coding Bootcamp.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- end of ex2  -->
-
-        <!-- start of ex3   -->
-        <div class="col-md-6">
-          <div class="card" style="width: 18rem;">
-            <img
-              class="card-img-top"
-              src="Assets/my images/day planner.jpg"
-              alt="Scheduler"
-            />
-            <div class="card-body">
-              <p class="card-text">
-                <a href="https://gcaplan777.github.io/Scheduler">Scheduler</a>
-                utilizing jQuery, HTML, CSS.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- end of ex 3  -->
-
-        <!-- example 4 -->
-        <div class="col-md-6">
-          <div class="card" style="width: 18rem;">
-            <img
-              class="card-img-top"
-              src="Assets/my images/password generator.jpg"
-              alt="password generator"
-            />
-            <div class="card-body">
-              <p class="card-text">
-                <a href="https://gcaplan777.github.io/passwordGenerator"
-                  >Password Generator</a
-                >
-                utilizing JavaScript.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- end of ex4 -->
-
-        <!-- end row -->
       </div>
-      <!-- end of container  -->
-    </main>
-  </body>
+      <!-- end of ex 1  -->
+
+      <!-- ex2 -->
+      <div class="col-md-6">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Assets/my images/teacher reacher.jpg" alt="Teacher Reacher" />
+          <div class="card-body">
+            <p class="card-text">
+              Group Project2
+              <a href="https://github.com/jamesrowe1/project2">Pointer Sisters</a>
+            </p>
+            <p>
+              Our second group project used Sequelize, Passport, Node.JS and proposes an app where with teacher
+              supervision, students can take learn, take notes, and schedule sessions within their class to teach fellow
+              students what they've learned. "By teaching, we learn."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- end of ex2  -->
+
+      <!-- start of ex3   -->
+      <div class="col-md-6">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Assets/my images/day planner.jpg" alt="Scheduler" />
+          <div class="card-body">
+            <p class="card-text">
+              <a href="https://gcaplan777.github.io/Scheduler">Scheduler</a>
+              utilizing jQuery, HTML, CSS.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- end of ex 3  -->
+
+      <!-- example 4 -->
+      <div class="col-md-6">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Assets/my images/password generator.jpg" alt="password generator" />
+          <div class="card-body">
+            <p class="card-text">
+              <a href="https://gcaplan777.github.io/passwordGenerator">Password Generator</a>
+              utilizing JavaScript.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- end of ex4 -->
+
+      <!-- end row -->
+    </div>
+    <!-- end of container  -->
+  </main>
+</body>
+
 </html>
